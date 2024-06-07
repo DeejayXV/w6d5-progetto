@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Account</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style-account.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./Netflix-assets/assets/netflix_logo.png" alt="Netflix Logo" height="50" />
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Recently Added</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">My List</a></li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./Netflix-assets/assets/svg/search.svg" alt="Search" height="30" /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./Netflix-assets/assets/svg/bell-fill.svg" alt="Search" height="30" /></a>
+              </li>
+            </ul>
+
+            <div class="dropdown">
+              <a
+                class="d-flex align-items-center text-decoration-none dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownProfile"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./Netflix-assets/assets/avatar.png" alt="Strive Student" style="width: 50px; height: 50px; margin-right: 15px" />
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownProfile">
+                <li><a class="dropdown-item" href="edit-profile.html">Profile</a></li>
+                <li><a class="dropdown-item" href="account.html">Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="mb-3 mt-5">Account</h1>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="d-flex align-items-center justify-content-between">
+            <div>Membership & Billing</div>
+            <button class="btn btn-outline-danger">Cancel Membership</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="justify-content-between align-items-center mt-3">
+            <div>
+              <div class="mt-2 d-flex justify-content-between">
+                <div>Email: student@strive.school</div>
+                <button class="btn btn-link">Change account email</button>
+              </div>
+              <div class="mt-2 d-flex justify-content-between">
+                <div>Password: ********</div>
+                <button class="btn btn-link">Change password</button>
+              </div>
+              <div class="mt-2 d-flex justify-content-between">
+                <div>Phone: 321 044 1279</div>
+                <button class="btn btn-link">Change phone number</button>
+              </div>
+              <hr />
+              <div class="mt-2 d-flex justify-content-between">
+                <div><img src="./Netflix-assets/assets/svg/paypal.svg" alt="paypal" /> Paypal - admin@strive.school</div>
+                <button class="btn btn-link">Update Payment Info</button>
+              </div>
+              <div class="mt-2 d-flex justify-content-between">
+                <div></div>
+                <button class="btn btn-link">Billing details</button>
+              </div>
+              <hr />
+              <div class="mt-2 d-flex justify-content-between">
+                <div></div>
+                <button class="btn btn-link">Redeem gift card or promo code</button>
+              </div>
+              <div class="mt-2 d-flex justify-content-between">
+                <div></div>
+                <button class="btn btn-link">Where to buy gift cards</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">Plan Details</div>
+        <div class="card-body">
+          Premium <span class="badge border text-dark">ULTRA HD</span>
+          <button class="btn btn-link float-end">Change plan</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">Settings</div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-primary border-0">Parental controls</li>
+          <li class="list-group-item text-primary border-0">Test participation</li>
+          <li class="list-group-item text-primary border-0">Manage download devices</li>
+          <li class="list-group-item text-primary border-0">Activate a device</li>
+          <li class="list-group-item text-primary border-0">Recent device streaming activity</li>
+          <li class="list-group-item text-primary border-0">Sign out of all devices</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">My Profile</div>
+        <div class="card-body">
+          <div>
+            <div class="mt-2 d-flex justify-content-between">
+              <div>
+                <img src="./Netflix-assets/assets/avatar.png" alt="Strive Student" style="width: 50px; height: 50px; margin-right: 15px" /> Strive
+                Student
+              </div>
+              <button class="btn btn-link">Manage profiles</button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div></div>
+            <button class="btn btn-link">Add profile email</button>
+          </div>
+
+          <button class="btn btn-link">Manage profiles</button>
+          <button class="btn btn-link">Add profile email</button>
+          <button class="btn btn-link">Language</button>
+          <button class="btn btn-link">Playback settings</button>
+          <button class="btn btn-link">Subtitle appearance</button>
+          <button class="btn btn-link">Viewing activity</button>
+          <button class="btn btn-link">Ratings</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
